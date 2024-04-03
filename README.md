@@ -33,3 +33,6 @@ Kelas: TI 3A
 
 3. Pada bagian ini kita belajar menggunakan context dalam react, yang mana dapat digunakan untuk menyebarkan data ke seluruh komponen tanpa harus melewati prop secara langsung dari komponen induk ke komponen anak. Komponen 'Section' menggunakan Context untuk menentukan tingkat kedalaman (level) dari hierarki tersebut, dan kemudian mengoperasikan informasi ini ke komponen anaknya, seperti 'Heading'
 ![Screenshoot](assets-report/W07-3.png) 
+
+4. Membuat context dengan melewati komponen perantara. Menambahkan Nama dan NIM di bagian komponen Post.
+![Screenshoot](assets-report/W07-4.png)
