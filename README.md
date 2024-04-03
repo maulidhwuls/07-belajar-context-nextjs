@@ -30,3 +30,6 @@ Kelas: TI 3A
 
 2. Pada soal ini terjadi error karena kita mengimpor sebuah komponen yang membutuhkan createContext. Sehingga dibutuhkan 'use client' agar dapat dideteksi bahwa file mycontext.ts bagian dari komponen klien.
 ![Screenshoot](assets-report/W07-2.png) 
+
+3. Pada bagian ini kita belajar menggunakan context dalam react, yang mana dapat digunakan untuk menyebarkan data ke seluruh komponen tanpa harus melewati prop secara langsung dari komponen induk ke komponen anak. Komponen 'Section' menggunakan Context untuk menentukan tingkat kedalaman (level) dari hierarki tersebut, dan kemudian mengoperasikan informasi ini ke komponen anaknya, seperti 'Heading'
+![Screenshoot](assets-report/W07-3.png) 
