@@ -28,3 +28,5 @@ Kelas: TI 3A
 1. Dalam praktikum 1 tersebut kita menggunakan heading dan section menggunakan props children yang telah diinisialisasikann sebelumnya pada file heading dan section di folder atoms. <br>
 ![Screenshoot](assets-report/W07-1.png) 
 
+2. Pada soal ini terjadi error karena kita mengimpor sebuah komponen yang membutuhkan createContext. Sehingga dibutuhkan 'use client' agar dapat dideteksi bahwa file mycontext.ts bagian dari komponen klien.
+![Screenshoot](assets-report/W07-2.png) 
