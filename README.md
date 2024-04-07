@@ -36,3 +36,11 @@ Kelas: TI 3A
 
 4. Membuat context dengan melewati komponen perantara. Menambahkan Nama dan NIM di bagian komponen Post.
 ![Screenshoot](assets-report/W07-4.png)
+
+5. Membuat toggle button berfungsi <br>
+- halaman dengan light theme
+![Screenshoot](assets-report/W07-5.png)
+- halaman dengan dark theme
+![Screenshoot](assets-report/W07-5a.png)
+
+Untuk membuat tema menjadi permanen meskipun halaman telah direfresh atau dipindahkan, kita bisa menyimpan preferensi tema pengguna di dalam penyimpanan lokal, seperti localStorage atau sessionStorage.
